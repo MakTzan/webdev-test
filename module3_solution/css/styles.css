@@ -1,0 +1,42 @@
+body {
+  /*font-size: 16px;*/
+  color: #fff;
+  background-color: #ffffff;
+  /*font-family: 'Oxygen', sans-serif;*/
+  font-family: 'Lora', serif;
+}
+  
+/** HEADER **/
+#header-nav {
+  background-color: #7a7a7a;
+  border-radius: 0;
+  border: 0;
+}
+
+.navbar-brand h1 { /* Company name */
+    /*font-family: 'Lora', serif;*/
+    color: #0404f5;
+    font-size: 1.5em;
+    font-weight: bold;
+    text-shadow: 1px 1px 1px #222;
+    margin-top: 0;
+    margin-bottom: 0;
+    line-height: .75;
+  }
+
+#nav-list {
+  margin-top: 10px;
+}
+
+#nav-list li {
+  border: 2px solid black;
+}
+
+/*Super small devices*/
+@media (max-width: 217px) {
+  #company h1 {
+    font-size: 7vw;
+
+  }
+
+}
