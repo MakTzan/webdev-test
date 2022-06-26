@@ -1,6 +1,6 @@
 body {
   /*font-size: 16px;*/
-  color: #fff;
+  color:  black;
   background-color: #ffffff;
   /*font-family: 'Oxygen', sans-serif;*/
   font-family: 'Lora', serif;
@@ -15,7 +15,7 @@ body {
 
 .navbar-brand h1 { /* Company name */
     /*font-family: 'Lora', serif;*/
-    color: #0404f5;
+    color: black;
     font-size: 1.5em;
     font-weight: bold;
     text-shadow: 1px 1px 1px #222;
