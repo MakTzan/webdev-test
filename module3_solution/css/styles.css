@@ -14,7 +14,6 @@ body {
 }
 
 .navbar-brand h1 { /* Company name */
-    /*font-family: 'Lora', serif;*/
     color: black;
     font-size: 1.5em;
     font-weight: bold;
@@ -32,11 +31,24 @@ body {
   border: 2px solid black;
 }
 
-/*Super small devices*/
-@media (max-width: 217px) {
-  #company h1 {
-    font-size: 7vw;
+#nav-tiles {
+  background-color: #7a7a7a;
+  height: 1000px;
+}
 
+#main-content h1 {
+  margin-top: 10px;
+}
+
+/*Fix for very small devices*/
+@media (max-width: 231px) {
+  .navbar-brand h1 {
+    font-size: 8vw;
+  }
+  #small-menu {
+    transform: scale(0.8) ;
+    padding-left: 0px;
+    padding-right: 0px;
   }
 
 }
